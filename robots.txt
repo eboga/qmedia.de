@@ -27,3 +27,7 @@ Disallow: /
 
 User-agent: *
 Disallow: /landing/
+
+User-agent: *
+Disallow: /assets/images/eboga,w_900.jpg
+
