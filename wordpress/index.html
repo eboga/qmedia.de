@@ -48,7 +48,7 @@
 
 
 
-    <script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script><script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script><script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script><script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script><script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script><script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script><script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script><script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script><script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
 
 
 
@@ -1237,6 +1237,7 @@ Eine Wordpress-Seite von qmedia- das bedeutet für Sie:</p>
 
 </footer>
 
+
 <amp-user-notification class="c-Dialog" id="c-Dialog" layout="nodisplay">
 
     <div class="c-Dialog-container wrapper wrapper--fluid">
@@ -1264,8 +1265,12 @@ Eine Wordpress-Seite von qmedia- das bedeutet für Sie:</p>
     </div>
 
 </amp-user-notification>
+
+
 </div>
-<amp-analytics type="googleanalytics">
+
+
+    <amp-analytics data-block-on-consent="_till_accepted" type="googleanalytics">
         <script type="application/json">
             {
                 "vars": {
