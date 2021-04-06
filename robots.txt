@@ -25,9 +25,15 @@ Disallow: /
 User-agent: ia_archiver
 Disallow: /
 
+User-agent: SurveyBot
+Disallow: /
+
 User-agent: *
 Disallow: /landing/
 
 User-agent: *
-Disallow: /assets/images/eboga,w_900.jpg
+Disallow: /assets/images/eboga*
+
+User-agent: *
+Disallow: assets/images/mthaler*
 
