@@ -288,19 +288,22 @@
     {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
-        "dateCreated": "2024-12-01T08:00:00+01:00",
-        "dateModified": "2025-07-01T08:00:00+01:00",
+        "dateCreated": "2024-12-01",
+        "dateModified": "2025-07-01",
+        "isPartOf": {
+            "@id": "https://www.qmedia.de/#website"
+        },
         "mainEntity": {
+            "@id": "https://www.qmedia.de/de/team/philipp-staedele/#person",
             "@type": "Person",
-            "name": "Philipp Staedele",
-            "url": "https://www.qmedia.de/de/team/philipp-staedele/",
-            "image": "https://www.qmedia.de.de/philipp-staedele.jpg",
-            "jobTitle": "Finanzjournalist",
-            "worksFor": {
-                "@type": "Organization",
-                "name": "qmedia GmbH"
-            },
             "description": "Philipp Staedele ist ein erfahrener Finanzjournalist mit Spezialisierung auf Kreditkarten, Zahlungsverkehr und Verbraucherfinanzen. Seine Analysen erscheinen regelmäßig auf führenden Finanzportalen.",
+            "image": {
+                "@type": "ImageObject",
+                "height": 800,
+                "url": "https://www.qmedia.de/assets/images/team/philipp-staedele.jpg",
+                "width": 800
+            },
+            "jobTitle": "Finanzjournalist",
             "knowsAbout": [
                 {
                     "@type": "Thing",
@@ -309,20 +312,25 @@
                 },
                 {
                     "@type": "Thing",
-                    "name": "wertpapierorder",
-                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierorder"
+                    "name": "wertpapierhandel",
+                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierhandel"
                 },
                 {
                     "@type": "Thing",
-                    "name": "wertpapierhandel",
-                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierhandel"
+                    "name": "wertpapierorder",
+                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierorder"
                 }
             ],
+            "name": "Philipp Staedele",
             "sameAs": [
                 "https://www.kreditkarte24.de/author/philipp-staedele/",
                 "https://www.depotkonto.de/author/philipp-staedele/",
                 "https://www.gruendung.de/author/philipp-staedele/"
-            ]
+            ],
+            "url": "https://www.qmedia.de/de/team/philipp-staedele/",
+            "worksFor": {
+                "@id": "https://www.qmedia.de/#organization"
+            }
         }
     }
 </script>

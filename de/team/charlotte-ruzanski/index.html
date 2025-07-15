@@ -288,34 +288,32 @@
     {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
-        "dateCreated": "2015-01-01T08:00:00+01:00",
-        "dateModified": "2025-07-01T08:00:00+01:00",
+        "dateCreated": "2015-01-01",
+        "dateModified": "2025-07-01",
+        "isPartOf": {
+            "@id": "https://www.qmedia.de/#website"
+        },
         "mainEntity": {
+            "@id": "https://www.qmedia.de/de/team/charlotte-ruzanski/#person",
             "@type": "Person",
-            "name": "Charlotte Ruzanski",
-            "url": "https://www.qmedia.de/de/team/charlotte-ruzanski/",
-            "image": "https://www.qmedia.de.de/charlotte-ruzanski.jpg",
-            "jobTitle": "Finanzjournalistin",
-            "worksFor": {
-                "@type": "Organization",
-                "name": "qmedia GmbH"
-            },
             "description": "Charlotte Ruzanski",
+            "image": {
+                "@type": "ImageObject",
+                "height": 800,
+                "url": "https://www.qmedia.de/assets/images/team/charlotte-ruzanski.jpg",
+                "width": 800
+            },
+            "jobTitle": "Finanzjournalistin",
             "knowsAbout": [
+                {
+                    "@type": "Thing",
+                    "name": "Energiemarkt",
+                    "sameAs": "https://de.wikipedia.org/wiki/Energiemarkt"
+                },
                 {
                     "@type": "Thing",
                     "name": "broker",
                     "sameAs": "https://de.wikipedia.org/wiki/Broker"
-                },
-                {
-                    "@type": "Thing",
-                    "name": "wertpapierorder",
-                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierorder"
-                },
-                {
-                    "@type": "Thing",
-                    "name": "investition",
-                    "sameAs": "https://de.wikipedia.org/wiki/Investition"
                 },
                 {
                     "@type": "Thing",
@@ -324,26 +322,36 @@
                 },
                 {
                     "@type": "Thing",
-                    "name": "kreditkarte",
-                    "sameAs": "https://de.wikipedia.org/wiki/Kreditkarte"
-                },
-                {
-                    "@type": "Thing",
                     "name": "girokonto",
                     "sameAs": "https://de.wikipedia.org/wiki/Girokonto"
                 },
                 {
                     "@type": "Thing",
-                    "name": "Energiemarkt",
-                    "sameAs": "https://de.wikipedia.org/wiki/Energiemarkt"
+                    "name": "investition",
+                    "sameAs": "https://de.wikipedia.org/wiki/Investition"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "kreditkarte",
+                    "sameAs": "https://de.wikipedia.org/wiki/Kreditkarte"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "wertpapierorder",
+                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierorder"
                 }
             ],
+            "name": "Charlotte Ruzanski",
             "sameAs": [
                 "https://www.kreditkarte24.de/author/charlotte-ruzanski/",
                 "https://www.depotkonto.de/author/charlotte-ruzanski/",
                 "https://www.gruendung.de/author/charlotte-ruzanski/",
                 "https://www.how-to-germany.com/author/charlotte-ruzanski/"
-            ]
+            ],
+            "url": "https://www.qmedia.de/de/team/charlotte-ruzanski/",
+            "worksFor": {
+                "@id": "https://www.qmedia.de/#organization"
+            }
         }
     }
 </script>

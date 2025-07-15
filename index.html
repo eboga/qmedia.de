@@ -63,8 +63,74 @@
                 "@context": "https://schema.org",
                 "@graph": [
                     {
+                        "@type": "Corporation",
+                        "@id": "https://www.qmedia.de/#organization",
+                        "name": "qmedia GmbH",
+                        "legalName": "qmedia GmbH",
+                        "url": "https://www.qmedia.de/",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://www.qmedia.de/#logo",
+                            "caption": "qmedia.de logo",
+                            "contentUrl": "https://www.qmedia.de/assets/images/qmedia-logo.png",
+                            "inLanguage": "de-DE",
+                            "url": "https://www.qmedia.de/assets/images/qmedia-logo.png",
+                            "width": 600,
+                            "height": 600
+                        },
+                        "foundingDate": "2006-04-25",
+                        "founder": {
+                            "@type": "Person",
+                            "name": "Erkan Boga"
+                        },
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Ottobrunner Str. 1",
+                            "addressLocality": "München",
+                            "postalCode": "81737",
+                            "addressCountry": "DE"
+                        },
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "areaServed": "DE",
+                            "availableLanguage": [
+                                "German",
+                                "English"
+                            ],
+                            "contactType": "customer service",
+                            "email": "info@qmedia.de"
+                        },
+                        "vatID": "DE129378507",
+                        "duns": "506921704",
+                        "identifier": {
+                            "@type": "PropertyValue",
+                            "propertyID": "Handelsregister",
+                            "value": "HRB 161988 Amtsgericht München"
+                        },
+                        "sameAs": [
+                            "https://www.linkedin.com/company/qmedia-gmbh/",
+                            "https://x.com/qmedia_de"
+                        ],
+                        "publishingPrinciples": "https://www.qmedia.de/ueber-uns/"
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.qmedia.de/#website",
+                        "url": "https://www.qmedia.de/",
+                        "name": "qmedia GmbH",
+                        "description": "Entdecken Sie die Welt der Finanzen mit qmedia GmbH. Wir bieten verlässliche Vergleiche und Ratgeber über unsere spezialisierten Portale wie kreditkarte24.de und depotkonto.de.",
+                        "publisher": {
+                            "@id": "https://www.qmedia.de/#organization"
+                        },
+                        "about": {
+                            "@id": "https://www.qmedia.de/#organization"
+                        },
+                        "inLanguage": "de-DE",
+                        "datePublished": "2006-04-25"
+                    },
+                    {
                         "@type": "WebPage",
-                        "@id": "https://www.qmedia.de/",
+                        "@id": "https://www.qmedia.de/#webpage",
                         "url": "https://www.qmedia.de/",
                         "name": "qmedia GmbH | Experten-Ratgeber & Finanzportale",
                         "isPartOf": {
@@ -76,82 +142,19 @@
                         "primaryImageOfPage": {
                             "@id": "https://www.qmedia.de/#primaryimage"
                         },
-                        "image": {
-                            "@id": "https://www.qmedia.de/#primaryimage"
-                        },
-                        "thumbnailUrl": "https://www.qmedia.de/assets/images/qmedia-cover-centered.jpg",
                         "description": "Entdecken Sie die Welt der Finanzen mit qmedia GmbH. Wir bieten verlässliche Vergleiche und Ratgeber über unsere spezialisierten Portale wie kreditkarte24.de und depotkonto.de.",
-                        "breadcrumb": {
-                            "@id": "https://www.qmedia.de/#breadcrumb"
-                        },
                         "inLanguage": "de-DE",
-                        "potentialAction": [
-                            {
-                                "@type": "ReadAction",
-                                "target": [
-                                    "https://www.qmedia.de/"
-                                ]
-                            }
-                        ]
+                        "datePublished": "2006-04-25"
                     },
                     {
                         "@type": "ImageObject",
                         "inLanguage": "de-DE",
                         "@id": "https://www.qmedia.de/#primaryimage",
-                        "url": "https://www.qmedia.de/",
+                        "url": "https://www.qmedia.de/assets/images/qmedia-cover-centered.jpg",
                         "contentUrl": "https://www.qmedia.de/assets/images/qmedia-cover-centered.jpg",
                         "width": 3000,
-                        "height": 1000
-                    },
-                    {
-                        "@type": "BreadcrumbList",
-                        "@id": "https://www.qmedia.de/#breadcrumb",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home"
-                            }
-                        ]
-                    },
-                    {
-                        "@type": "Organization",
-                        "@id": "https://www.qmedia.de/#organization",
-                        "name": "qmedia GmbH",
-                        "alternateName": "qmedia",
-                        "url": "https://www.qmedia.de/",
-                        "logo": {
-                            "@type": "ImageObject",
-                            "inLanguage": "de-DE",
-                            "@id": "https://www.qmedia.de/#/schema/logo/image/",
-                            "url": "https://www.qmedia.de/",
-                            "contentUrl": "https://www.qmedia.de/assets/images/qmedia-cover-centered.jpg",
-                            "width": 3000,
-                            "height": 1000,
-                            "caption": "qmedia GmbH"
-                        },
-                        "image": {
-                            "@id": "https://www.qmedia.de/#/schema/logo/image/"
-                        },
-                        "sameAs": [
-                            "https://www.linkedin.com/company/qmedia-gmbh/",
-                            "https://x.com/qmedia_de"
-                        ],
-                        "address": {
-                            "@type": "PostalAddress",
-                            "streetAddress": "Ottobrunner Str. 1",
-                            "addressLocality": "München",
-                            "postalRegion": "BY",
-                            "postalCode": "81737",
-                            "addressCountry": "DE"
-                        },
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": "",
-                            "contactType": "customer service",
-                            "email": "info@qmedia.de"
-                        }
-
+                        "height": 1000,
+                        "caption": "qmedia.de cover image"
                     }
                 ]
             }

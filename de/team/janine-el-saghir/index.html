@@ -288,19 +288,22 @@
     {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
-        "dateCreated": "2022-01-01T08:00:00+01:00",
-        "dateModified": "2025-07-01T08:00:00+01:00",
+        "dateCreated": "2022-01-01",
+        "dateModified": "2025-07-01",
+        "isPartOf": {
+            "@id": "https://www.qmedia.de/#website"
+        },
         "mainEntity": {
+            "@id": "https://www.qmedia.de/de/team/janine-el-saghir/#person",
             "@type": "Person",
-            "name": "Janine El Saghir",
-            "url": "https://www.qmedia.de/de/team/janine-el-saghir/",
-            "image": "https://www.qmedia.de.de/janine-el-saghir.jpg",
-            "jobTitle": "Finanzjournalistin",
-            "worksFor": {
-                "@type": "Organization",
-                "name": "qmedia GmbH"
-            },
             "description": "Janine El Saghir",
+            "image": {
+                "@type": "ImageObject",
+                "height": 800,
+                "url": "https://www.qmedia.de/assets/images/team/janine-el-saghir.jpg",
+                "width": 800
+            },
+            "jobTitle": "Finanzjournalistin",
             "knowsAbout": [
                 {
                     "@type": "Thing",
@@ -309,13 +312,8 @@
                 },
                 {
                     "@type": "Thing",
-                    "name": "wertpapierorder",
-                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierorder"
-                },
-                {
-                    "@type": "Thing",
-                    "name": "unternehmensgründung",
-                    "sameAs": "https://de.wikipedia.org/wiki/Unternehmensgr%C3%BCndung"
+                    "name": "finanzprodukt",
+                    "sameAs": "https://de.wikipedia.org/wiki/Finanzprodukt"
                 },
                 {
                     "@type": "Thing",
@@ -324,21 +322,31 @@
                 },
                 {
                     "@type": "Thing",
-                    "name": "finanzprodukt",
-                    "sameAs": "https://de.wikipedia.org/wiki/Finanzprodukt"
+                    "name": "unternehmensgründung",
+                    "sameAs": "https://de.wikipedia.org/wiki/Unternehmensgr%C3%BCndung"
                 },
                 {
                     "@type": "Thing",
                     "name": "wertpapierhandel",
                     "sameAs": "https://de.wikipedia.org/wiki/Wertpapierhandel"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "wertpapierorder",
+                    "sameAs": "https://de.wikipedia.org/wiki/Wertpapierorder"
                 }
             ],
+            "name": "Janine El Saghir",
             "sameAs": [
                 "https://www.kreditkarte24.de/author/janine-el-saghir/",
                 "https://www.depotkonto.de/author/janine-el-saghir/",
                 "https://www.gruendung.de/author/janine-el-saghir/",
                 "https://www.how-to-germany.com/author/janine-el-saghir/"
-            ]
+            ],
+            "url": "https://www.qmedia.de/de/team/janine-el-saghir/",
+            "worksFor": {
+                "@id": "https://www.qmedia.de/#organization"
+            }
         }
     }
 </script>
