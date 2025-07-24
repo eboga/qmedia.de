@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>https://www.qmedia.de/</link>
-    <atom:link href="https://www.qmedia.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Jul 2025 13:24:39 +0200</pubDate>
-    <lastBuildDate>Fri, 18 Jul 2025 13:24:39 +0200</lastBuildDate>
+    <link>http://localhost:4002/</link>
+    <atom:link href="http://localhost:4002/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 24 Jul 2025 12:44:46 +0200</pubDate>
+    <lastBuildDate>Thu, 24 Jul 2025 12:44:46 +0200</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -42,8 +42,8 @@ Im Gegenzug bittet man um einen Backlink auf das eigene Web-Projekt bzw. auf ein
 &lt;a href=&quot;https://www.flickr.com/&quot; class=&quot;h-Hyphenate&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://www.flickr.com/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Feb 2017 10:20:05 +0100</pubDate>
-        <link>https://www.qmedia.de/flickr-and-ccbildern/</link>
-        <guid isPermaLink="true">https://www.qmedia.de/flickr-and-ccbildern/</guid>
+        <link>http://localhost:4002/flickr-and-ccbildern/</link>
+        <guid isPermaLink="true">http://localhost:4002/flickr-and-ccbildern/</guid>
         
         <category>seo</category>
         
@@ -75,8 +75,8 @@ Im Gegenzug bittet man um einen Backlink auf das eigene Web-Projekt bzw. auf ein
 &lt;p&gt;Für Firmen kann es somit eine Option sein, auch in den eigenen Instagram Posts und anderen Kampagnen auf Emojis zu setzen – und sich so näher bei den Fans zu positionieren.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Jan 2017 10:20:05 +0100</pubDate>
-        <link>https://www.qmedia.de/emojis-interaktionen-bei-instagram-steigern/</link>
-        <guid isPermaLink="true">https://www.qmedia.de/emojis-interaktionen-bei-instagram-steigern/</guid>
+        <link>http://localhost:4002/emojis-interaktionen-bei-instagram-steigern/</link>
+        <guid isPermaLink="true">http://localhost:4002/emojis-interaktionen-bei-instagram-steigern/</guid>
         
         <category>social media</category>
         
