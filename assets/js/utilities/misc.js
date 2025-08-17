@@ -24,4 +24,12 @@ function isMedia(...medias) {
     return result;
 }
 
-export {getType, isStyles, isMedia, isBoolean};
+function queueMacrotask(callback) {
+    if (typeof callback !== 'function') {
+        throw new TypeError('The callback must be a function');
+    }
+
+    window.setTimeout(callback, 0);
+}
+
+export {getType, isStyles, isMedia, isBoolean, queueMacrotask};
